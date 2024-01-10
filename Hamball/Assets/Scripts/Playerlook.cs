@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Playerlook : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Transform PlayerCamera;
+    public Vector2
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+ 
     void Update()
     {
         

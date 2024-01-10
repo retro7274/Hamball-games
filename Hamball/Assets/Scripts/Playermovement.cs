@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class Playermovement : MonoBehaviour
 {
 
     public float MoveSmoothTime;
@@ -64,5 +64,8 @@ public class PlayerController : MonoBehaviour
         {
             CurrentlyForceVelocity.y -= GravityStrength * Time.deltaTime;
         }
+
+        Controller.Move(CurrentlyForceVelocity * Time.deltaTime);
     }
 }
+//paker help
